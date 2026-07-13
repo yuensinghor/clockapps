@@ -1,0 +1,6 @@
+{
+  "name": "LTMClock",
+  "description": "Live the moments - A serene PWA timekeeper celebrating reclaimed life and presence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

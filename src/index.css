@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Georgia", serif;
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Courier New", Courier, monospace;
+  
+  --color-paper: #F7F2E8;
+  --color-ink: #2B2418;
+  --color-muted: #6B6258;
+  --color-faint: #A89E8E;
+  --color-border-beige: #E5DCC9;
+  --color-amber-gold: #C89554;
+  --color-amber-soft: #E8C896;
+  --color-void: #1F1814;
+}
+
+@layer base {
+  body {
+    background-color: #F7F2E8;
+    color: #2B2418;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
